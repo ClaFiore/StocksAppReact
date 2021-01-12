@@ -16,7 +16,7 @@ const Navbar = props => {
             <div class='menuNav' onClick= {() => handleMenu('myPortfolios')}>My Portfolios</div>
             <div class='menuNav' onClick= {() => handleMenu('myWatchlist')}>My Watchlist</div>
             <div class='menuNav' onClick= {() => handleMenu('news')}>News</div>
-            {true ? <div class='menuNav' >Signup / Login</div> : <div class='menuNav' >Logout</div>} 
+            {true ? <div class='menuNav' onClick = {() => handleMenu('login')}>Signup / Login</div> : <div class='menuNav' >Logout</div>} 
         </div>
     )
 }

@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Home from './Home'
 import MyPortfolios from './MyPortfolios'
 import MyWatchlist from './MyWatchlist'
+import Login from './Login'
 import News from './News'
 import Footer from './Footer'
 import '../css/Homepage.css'
@@ -14,7 +15,7 @@ const Main = props => {
     return(
         <div id='homeContainer'>
             <Navbar/>
-            {props.view === 'home' ? <Home/> : props.view === 'myPortfolios' ? <MyPortfolios/> : props.view === 'myWatchlist' ? <MyWatchlist/> : <News/>}
+            {props.view === 'home' ? <Home/> : props.view === 'myPortfolios' ? <MyPortfolios/> : props.view === 'myWatchlist' ? <MyWatchlist/> : props.view === 'login' ? <Login/> : <News/>}
             <Footer/>
         </div>
     )
