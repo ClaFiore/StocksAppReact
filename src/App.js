@@ -1,9 +1,9 @@
-import Home from './containers/Home'
+import Main from './containers/Main'
 
 
 function App() {
   return (
-    <Home/>
+    <Main/>
   );
 }
 
