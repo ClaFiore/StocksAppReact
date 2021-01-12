@@ -7,3 +7,5 @@ const News = props => {
         </div>
     )
 }
+
+export default News
