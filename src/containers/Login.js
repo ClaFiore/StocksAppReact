@@ -9,7 +9,7 @@ const Login = props => {
                 <input type='password' placeholder='Enter your password'/>
                 <input type='submit'/>
             </form>
-            <h3>Don't have an account yet?</h3><span>Signup now</span>
+            <span><h3>Don't have an account yet?</h3></span><span><button>Sign Up</button></span>
         </div>
     )
 }
