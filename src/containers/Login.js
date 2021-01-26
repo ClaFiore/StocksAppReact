@@ -1,4 +1,5 @@
 import React from 'react'
+import SignUp from './SignUp'
 
 const Login = props => {
     return(
@@ -9,7 +10,7 @@ const Login = props => {
                 <input type='password' placeholder='Enter your password'/>
                 <input type='submit'/>
             </form>
-            <span><h3>Don't have an account yet?</h3></span><span><button>Sign Up</button></span>
+            <span><h3>Don't have an account yet?</h3></span><span><SignUp/></span>
         </div>
     )
 }
