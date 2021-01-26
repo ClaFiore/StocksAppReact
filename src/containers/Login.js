@@ -6,9 +6,9 @@ const Login = props => {
         <div id='loginContainer'>
             <h1>LOGIN</h1>
             <form>
-                <input type='text' placeholder='Email Address' />
-                <input type='password' placeholder='Enter your password'/>
-                <input type='submit'/>
+                <input className='inputLoginForm' type='text' placeholder='Email Address' /><br></br>
+                <input className='inputLoginForm' type='password' placeholder='Enter your password'/><br></br>
+                <input className='submitLoginForm'  type='submit'/>
             </form>
             <span><h3>Don't have an account yet?</h3></span><span><SignUp/></span>
         </div>

@@ -44,3 +44,15 @@ background-color: yellow;
     align-items: center;
     justify-content: space-between;
 }
+
+.inputLoginForm{
+    margin-bottom: 20px;
+}
+
+.submitLoginForm{
+    border-radius: 10%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
