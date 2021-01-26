@@ -15,7 +15,9 @@ const Main = props => {
     return(
         <div id='mainContainer'>
             <Navbar/>
+            <div id='centralComponent'>
             {props.view === 'home' ? <Home/> : props.view === 'myPortfolios' ? <MyPortfolios/> : props.view === 'myWatchlist' ? <MyWatchlist/> : props.view === 'login' ? <Login/> : <News/>}
+            </div>
             <Footer/>
         </div>
     )

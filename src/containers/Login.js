@@ -3,7 +3,7 @@ import SignUp from './SignUp'
 
 const Login = props => {
     return(
-        <div >
+        <div id='loginContainer'>
             <h1>LOGIN</h1>
             <form>
                 <input type='text' placeholder='Email Address' />
