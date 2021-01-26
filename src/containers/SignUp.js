@@ -2,6 +2,7 @@ import React from 'react'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const SignUp = props => {
 
@@ -11,7 +12,7 @@ const SignUp = props => {
     const handleShow = () => setShow(true);
   
     return (
-      <>
+      <div>
         <Button variant="primary" onClick={handleShow}>
           Sign Up
         </Button>
@@ -30,7 +31,7 @@ const SignUp = props => {
             </Button>
           </Modal.Footer>
         </Modal>
-      </>
+      </div>
     );
 }
 

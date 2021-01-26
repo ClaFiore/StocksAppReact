@@ -1,8 +1,9 @@
-#homeContainer{
+#mainContainer{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
+    border: 1px solid blue;
 }
 
 #navbarContainerDiv{
@@ -11,6 +12,7 @@
     justify-content: center;
     align-items: stretch;
     height: 30px;
+    background-color: green;
 }
 
 .menuNav{
@@ -23,4 +25,8 @@
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
+}
+
+#mainContainer{
+background-color: yellow;
 }

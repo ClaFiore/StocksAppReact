@@ -13,7 +13,7 @@ import {connect} from 'react-redux'
 const Main = props => {
     console.log(props.view)
     return(
-        <div id='homeContainer'>
+        <div id='mainContainer'>
             <Navbar/>
             {props.view === 'home' ? <Home/> : props.view === 'myPortfolios' ? <MyPortfolios/> : props.view === 'myWatchlist' ? <MyWatchlist/> : props.view === 'login' ? <Login/> : <News/>}
             <Footer/>
