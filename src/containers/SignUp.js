@@ -23,6 +23,8 @@ const SignUp = props => {
           </Modal.Header>
           <Modal.Body>
               <Form>
+                <Form.Label>First Name</Form.Label>
+                <Form.Control name="firstname" placeholder="First name"/>
                 <Form.Label>Email Address</Form.Label>
                 <Form.Control name="email" placeholder="Enter email address" />
                 <Form.Label>Password</Form.Label>
