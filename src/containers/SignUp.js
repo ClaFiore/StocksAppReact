@@ -21,7 +21,12 @@ const SignUp = props => {
           <Modal.Header closeButton>
             <Modal.Title>Sign Up</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Sign Up Form here</Modal.Body>
+          <Modal.Body>
+              <Form>
+                <Form.Label>Email Address</Form.Label>
+                <Form.Control name="email" placeholder="Enter email address" />
+              </Form>
+          </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
               Close
