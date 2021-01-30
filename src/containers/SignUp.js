@@ -26,7 +26,7 @@ const SignUp = props => {
                 <Form.Label>Email Address</Form.Label>
                 <Form.Control name="email" placeholder="Enter email address" />
                 <Form.Label>Password</Form.Label>
-                <Form.Control name="password" placeholder="Choose new password" />
+                <Form.Control name="password" placeholder="Choose new password" type='password'/>
               </Form>
           </Modal.Body>
           <Modal.Footer>
