@@ -11,6 +11,10 @@ const SignUp = props => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
   
+    const submitForm = () => {
+        console.log('clicked')
+    }
+
     return (
       <div>
         <Button variant="primary" onClick={handleShow}>
@@ -34,7 +38,7 @@ const SignUp = props => {
               </Form>
           </Modal.Body>
           <Modal.Footer>
-          <Button type='submit'>Sign Up</Button>
+          <Button type='submit' onClick={()=>submitForm()}>Sign Up</Button>
           </Modal.Footer>
         </Modal>
       </div>
