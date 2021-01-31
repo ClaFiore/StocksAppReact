@@ -34,12 +34,7 @@ const SignUp = props => {
               </Form>
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
-            <Button variant="primary" onClick={handleClose}>
-              Save Changes
-            </Button>
+          <Button type='submit'>Sign Up</Button>
           </Modal.Footer>
         </Modal>
       </div>
