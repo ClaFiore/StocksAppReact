@@ -13,6 +13,8 @@ const SignUp = props => {
   
     const submitForm = () => {
         console.log('clicked')
+        handleClose()
+        //controlled form, save answers in state and use it to send a post request to backend to save new user info - and change state to be logged in
     }
 
     return (
