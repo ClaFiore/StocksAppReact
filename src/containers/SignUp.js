@@ -8,6 +8,7 @@ const SignUp = props => {
 
     const [show, setShow] = React.useState(false);
     const [first, setFirst] = React.useState('')
+    const [last, setLast] = React.useState('')
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -45,7 +46,7 @@ const SignUp = props => {
                 <Form.Label>First Name</Form.Label>
                 <Form.Control name="firstname" placeholder="First name" onChange={(e) => setFirst(e.target.value)}/>
                 <Form.Label>Last Name</Form.Label>
-                <Form.Control name="lastname" placeholder="Last name"/>
+                <Form.Control name="lastname" placeholder="Last name" onChange={(e) => setLast(e.target.value)}/>
                 <Form.Label>Email Address</Form.Label>
                 <Form.Control name="email" placeholder="Enter email address" />
                 <Form.Label>Password</Form.Label>
